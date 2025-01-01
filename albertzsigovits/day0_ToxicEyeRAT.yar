@@ -172,9 +172,9 @@ rule RAT_ToxicEye_StringsA : malware rat toxiceye {
         reference = "https://bazaar.abuse.ch/browse/signature/toxiceye/"
 
     strings:
-        $ = "C:\Users\attationin\"
-        $ = "\ToxicEye-master-myfork"
-        $ = "\ToxicEye-master\"
+        $ = "\\Users\\attationin"
+        $ = "\\ToxicEye-master-myfork"
+        $ = "\\ToxicEye-master"
         $ = "TelegramChatID"
         $ = "TelegramRAT"
         $ = "TelegramToken"
