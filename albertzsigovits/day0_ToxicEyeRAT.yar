@@ -201,4 +201,3 @@ rule RAT_ToxicEye_StringsA : malware rat toxiceye {
     condition:
         15 of them
 }
-</pre>
