@@ -1,7 +1,4 @@
-# ToxicEyeRAT YARA signatures
-
-  <pre>
-  rule RAT_ToxicEye_IL : malware rat toxiceye {
+rule RAT_ToxicEye_IL : malware rat toxiceye {
     meta:
         author = "albertzsigovits"
         sha256 = "2e53a6710f04dd84cfd3ac1874a2a61e690568405f192e7cbf8a4df12da334c4"
@@ -57,9 +54,7 @@
     condition:
         all of them
 }
-</pre>
 
-<pre>
 rule RAT_ToxicEye_StringsW : malware rat toxiceye {
     meta:
         author = "albertzsigovits"
@@ -167,9 +162,7 @@ rule RAT_ToxicEye_StringsW : malware rat toxiceye {
           and 1 of ($exfil*)
         )
 }
-</pre>
 
-<pre>
 rule RAT_ToxicEye_StringsA : malware rat toxiceye {
     meta:
         author = "albertzsigovits"
