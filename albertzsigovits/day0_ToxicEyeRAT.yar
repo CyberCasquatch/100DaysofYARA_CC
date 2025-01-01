@@ -72,13 +72,13 @@ rule RAT_ToxicEye_StringsW : malware rat toxiceye {
         $str06 = "Trying overwrite boot sector..." wide
         $str07 = "Found blocked process" wide
         $str08 = "This is some text in the file." wide
-        $str09 = "Software\Microsoft\Windows\CurrentVersion\Policies\System" wide
+        $str09 = "Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System" wide
         $str10 = "DisableTaskMgr" wide
-        $str11 = "\root\SecurityCenter2" wide
+        $str11 = "\\root\\SecurityCenter2" wide
         $str12 = "Select * from AntivirusProduct" wide
         $str13 = "Starting autostealer..." wide
         $str14 = "Stopping autostealer..." wide
-        $str15 = "\autosteal.lock" wide
+        $str15 = "autosteal.lock" wide
         $str16 = ".crypted" wide
         $str17 = "STEALER:" wide
 
