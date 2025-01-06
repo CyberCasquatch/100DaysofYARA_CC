@@ -1,3 +1,4 @@
+import "hash"
 rule Monokle_Mobile_Surveillanceware
 {
     meta:
@@ -18,5 +19,8 @@ rule Monokle_Mobile_Surveillanceware
         // Add more strings based on observed indicators, file paths, or constants
 
     condition:
-        any of ($str*) or $network1
+        any of ($str*) or $network1 or
+        hash.sha256(0, filesize) == "695d11c512a40a656aa39efedc79ef6a6ff3caca781c384e1238b9f0ea30621a" or
+        hash.sha256(0, filesize) == "0a2df7bf56192efbbeb26479cd58d5ae6cb2ed0946b5a138d372b5d85373b4de"
+
 }
