@@ -1,4 +1,5 @@
 import "hash"
+
 rule Monokle_Mobile_Surveillanceware
 {
     meta:
