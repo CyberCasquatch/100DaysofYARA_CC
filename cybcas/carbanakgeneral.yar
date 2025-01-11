@@ -2,9 +2,9 @@ rule Detect_Carbanak_Malware
 {
     meta:
         description = "Detects potential artifacts related to Carbanak malware"
-        author = "Your Name"
+        author = "YCybCas"
         reference = "https://attack.mitre.org/groups/G0008/"
-        date = "2025-01-11"
+        date = "2025-01-10"
         version = "1.0"
         threat_actor = "Carbanak (FIN7)"
     
