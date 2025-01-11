@@ -4,7 +4,7 @@ rule Detect_Setuid_Setgid_Privilege_Escalation
         description = "Detects potential privilege escalation via Setuid and Setgid bits"
         author = "Your Name"
         reference = "https://attack.mitre.org/techniques/T1548/001/"
-        date = "2025-01-11"
+        date = "2025-01-09"
         version = "1.0"
 
     strings:
