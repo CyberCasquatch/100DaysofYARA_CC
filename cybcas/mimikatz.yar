@@ -4,7 +4,7 @@ rule Mimikatz_Detection
         author = "CybCas"
         description = "Detects presence of Mimikatz on a compromised system"
         reference = "https://github.com/gentilkiwi/mimikatz"
-        date = "2025-01-07"
+        date = "2025-01-08"
         version = "1.0"
 
     strings:
