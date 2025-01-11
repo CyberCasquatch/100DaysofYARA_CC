@@ -47,7 +47,7 @@ rule Mimikatz_Detection
 /* 
 Key Features:
 File Names:
-Recognizes common file names associated with Mimikatz, such as mimikatz.exe and its DLL files.
+Recognises common file names associated with Mimikatz, such as mimikatz.exe and its DLL files.
 Strings:
 Detects specific commands and modules used by Mimikatz (sekurlsa::logonpasswords, kerberos::tickets, etc.).
 Includes outputs produced by Mimikatz when extracting credentials (e.g., "NTLM", "Authentication Id").
