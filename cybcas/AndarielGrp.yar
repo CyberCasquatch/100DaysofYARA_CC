@@ -3,7 +3,7 @@ rule Andariel_Group_Malware {
         description = "Detects malware and reconnaissance artifacts associated with the Andariel Group (G0009)"
         author = "CybCas"
         date = "2025-01-13"
-        reference = "http://download.ahnlab.com/global/brochure/[Analysis]Andariel_Group.pdf, https://www.trendmicro.com/en_us/research/18/g/new-andariel-reconnaissance-tactics-hint-at-next-targets.html" //THIS NEEDS FIXING
+        reference = "http://download.ahnlab.com/global/brochure/[Analysis]Andariel_Group.pdf, https://www.trendmicro.com/en_us/research/18/g/new-andariel-reconnaissance-tactics-hint-at-next-targets.html"
         threat_group = "Andariel (G0009)"
     
     strings:
