@@ -2,7 +2,7 @@ rule Detect_APT38_KEYLIME {
     meta:
         description = "Detects APT38 KEYLIME Trojan Keylogging Activity"
         author = "CybCas"
-        date = "2025-01-20"
+        date = "2025-01-19"
         reference = "https://attack.mitre.org/techniques/T1056/001/"
         threat_group = "APT38"
         malware_family = "KEYLIME"
