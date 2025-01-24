@@ -5,10 +5,10 @@ You should adjust the conditions based on specific indicators you have - these a
 rule Bundlore_Adware_Backdoor
 {
     meta:
-        author = "Your Name"
+        author = "CybCas"
         description = "Detects Bundlore adware/backdoor"
         reference = "https://attack.mitre.org/software/S0482/"
-        date = "2025-01-24"
+        date = "2025-01-22"
         threat_level = "high"
         mitre_technique = "TTPs related to Bundlore"
 
