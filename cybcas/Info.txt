@@ -1,0 +1,3 @@
+All rules created for the 100 days of YARA by CybCas are generic and require further testing and information to be gathered for each rule. 
+Rules should be tested for what they were written for with samples. 
+
